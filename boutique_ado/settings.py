@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
     'crispy_forms',
+    'profiles',
 ]
 
 MIDDLEWARE = [
@@ -94,13 +95,6 @@ TEMPLATES = [
 ]
 
 
-TEMPLATE_CONTEXT_PROCESSORS = (
-   "django.core.context_processors.request",
-   "django.core.context_processors.media",
-   "django.contrib.messages.context_processors.messages"
-)
-
-
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
 
@@ -124,7 +118,7 @@ ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
 ACCOUNT_USERNAME_MIN_LENGTH = 4
-LOGIN_URL = 'accounts/login/'
+LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
 
