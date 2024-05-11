@@ -105,11 +105,11 @@ def checkout(request):
         if request.user.is_authenticated:
             try:
                 profile=UserProfile.objects.get(user=request.user)
-                order_form = OrderForm(initial-{
+                order_form = OrderForm(initial={
                     'full_name': profile.user.get_full_name(),
                     'email': profile.user.email,
                     'phone_number': profile.default_phone_number,
-                    'country': prof.default_country,
+                    'country': profile.default_country,
                     'postcode': profile.default_postcode,
                     'town_or_city': profile.default_town_or_city,
                     'street_address1': profile.default_street_address1,
