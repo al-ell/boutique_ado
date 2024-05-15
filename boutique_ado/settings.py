@@ -33,6 +33,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '8000-alell-shopwalkthrough-tgqg2unz19i.ws-eu111.gitpod.io',
+    'shop-walkthrough-ado-a4b82820db0c.herokuapp.com',
     'shop-walkthrough-ado',
     'localhost',
 ]
