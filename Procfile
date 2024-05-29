@@ -1,1 +1,1 @@
-web: gunicorn shop-walkthrough.wgsi:application
+web: gunicorn boutique_ado.wgsi:application
