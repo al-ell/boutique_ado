@@ -60,7 +60,6 @@ INSTALLED_APPS = [
     'crispy_forms',
     'profiles',
     'storages',
-    'cutsom_storages',
 ]
 
 MIDDLEWARE = [
